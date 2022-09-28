@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP PAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(11, 129, 197, 0.745);
+           font-family: sans-serif;  
+        }
+        *{
+            padding: 0px;
+          margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .Main{
+            width: 90%;
+            /* height: 700px; */
+            margin: auto;
+            display: flex;
+            margin: auto;
+            /* background-color: black; */
+            justify-content: center;
+
+        }
+
+        .Main .rect{
+            width: 50%;
+            height: 70vh;
+            box-sizing: border-box;
+      
+            
+        }
+        .Main .rect .btn1{
+            background-color: bisque;
+           margin:10% ;
+           border-radius: 20px;
+           
+        }
+        .Main .rect .btn1:hover{
+            transition-duration: 0.4s;
+            background-color: brown;
+        }
+
+         #rect1{
+            background-color:  rgb(10, 5, 54);
+            width:400px;
+            height: 80vh;
+            border-radius: 27px 0px 0px 27px;
+           
+           
+        } 
+        #rect1 h3{
+            color: rgb(194, 207, 217);
+            text-align: center;
+        }
+       .Main .rect .Words h5{
+            color: aliceblue;
+            padding: 15px;
+            text-align: justify;
+        }
+        #rect2{
+            background-color: rgb(255, 255, 255);
+            width: 450px;
+            border-radius: 0px 27px 27px 0px;
+            height: 90vh;
+        }
+        .Main .rect form input{
+            padding: 15px 10px;
+             margin-left: 10px; 
+            border-radius: 5px;
+          border-color: black;
+          font-size: 16px;
+          width: 100%;
+             outline: none; 
+          
+          
+        }
+        .Main .rect form p{
+            margin: 15px 0;
+            font-size: 18px;
+
+        }
+        .Main .rect form {
+            /* position: absolute; */
+            /* transform: translate(-50% ,-50%); */
+            /* width: 100%; */
+        }
+         
+        .Main .rect form .btn2{
+            margin-bottom: 200px;
+             
+
+        }
+     
+    </style>
+</head>
+
+<body>
+    <div class="Main">
+
+        <div class="rect" id="rect1"><h3>Information About us</h3>
+           <div class="Words">
+            <h5>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. 
+                Nam bibendum non diam nec placerat
+                Pellentesque volutpat eu justo quis 
+                lobortis. Vivamus sed massa odio.
+                Etiam luctus tincidunt neque,
+                nec ultricies leo lacinia porta. 
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. 
+                Nam bibendum non diam nec placerat.
+                Pellentesque volutpat eu justo quis
+                lobortis. Vivamused massa odio. Etiam 
+                luctus tincidunt neque, nec ultricies 
+                leo lacinia porta. Phasellus sagittis 
+                lorem odio,sit amet commodo nulla laoreet
+                 vel.Aliquam at libero fringilla justo 
+                elementum molestie sollicitudin at elit.
+                 In iaculis rhoncus ex, sit amet ullamcorper
+                  metus aliquam quis.Maecenas nec est in lacus 
+                  iaculis congue.
+            </h5>
+            </div>
+
+            <button class="btn1" type="submit">Have Account</button>
+        </div>
+ 
+
+        <div class="rect" id="rect2">
+            <h1>Registration Form</h1>
+            <form >
+                <p>First Name</p>
+                <input type="text" name="FName" placeholder="First Name"/>
+                <p>Last Name</p>
+                <input type="text" name="LName" placeholder="Last Name"/>
+                <p>UserName</p>
+                <i class="fa fa-user"></i>
+                <input type="text" name="username" placeholder="UserName ">
+                <p >Email </p>
+                	
+                <i class="fa fa-envelope"></i>
+                <input type="text" name="Email" placeholder="Email"/> 
+                <p >Password: </p>
+                <i class="fa fa-lock"></i>
+                <input type="password" name="password" placeholder="password"/> 
+                <button class="btn2" type="submit">
+                    Register
+                </button>
+            </form>
+        
+    </div>
+    
+</body>
+
+</html>
